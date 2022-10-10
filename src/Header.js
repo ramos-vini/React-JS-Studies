@@ -2,7 +2,7 @@ import './Header.css';
 
 function Header(props) {
     return (
-        <div className="header">
+        <header className="header">
             <div className="headerDiv1">
                 <a href><h2>{props.logo}</h2></a>
             </div>
@@ -12,7 +12,7 @@ function Header(props) {
                 <a href>About Us</a>
                 <a href>Contact</a>
             </div>
-        </div>
+        </header>
     );
 }
 
