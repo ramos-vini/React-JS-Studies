@@ -1,9 +1,10 @@
 import './App.css';
+import Header from './Header.js';
 
 function App() {
   return (
     <div className="App">
-      <h1>My first React App ;)</h1>
+      <Header logo="My Logo"></Header>
     </div>
   );
 }
