@@ -4,7 +4,7 @@ import Header from './Header.js';
 function App() {
   return (
     <div className="App">
-      <Header logo="My Logo"></Header>
+      <Header logo="My Logo" />
     </div>
   );
 }

@@ -1,8 +1,10 @@
+import './Header.css';
+
 function Header(props) {
     return (
         <div className="header">
             <div className="headerDiv1">
-                <h2>{props.logo}</h2>
+                <a href><h2>{props.logo}</h2></a>
             </div>
 
             <div className="headerDiv2">

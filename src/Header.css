@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 10%;
+    color: darkblue;
+}
+
+.headerDiv1, .headerDiv2{
+    width: 100%;
+}
+
+.headerDiv1 h2:hover{
+    cursor: pointer;
+}
+
+.headerDiv2{
+    display: flex;
+    justify-content: end;
+}
+
+.headerDiv2 a{
+    margin-left: 10%;
+}
+
+.headerDiv2 a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
