@@ -19,6 +19,15 @@ export default function ClickCounter() {
             <p>You've clicked {count} times.</p>
 
             <button onClick={()=> setCount(count + 1)}>Click me</button>
+
+            {
+                (count == 0)?
+                <code>Once you begin, you gotta do your best...</code>:
+                (count % 10 == 0 || (count-1) % 10 == 0 && count != 1)?
+                <code>Come on! Is that all you can do!?</code>:
+                <code>Let's goooooo!</code>
+            }
+
         </div>
     );
 }
